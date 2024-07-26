@@ -1,0 +1,147 @@
+/* src/components/Register.css */
+
+.register {
+    padding: 50px 20px;
+    background: #e9ecef;
+}
+
+.register-hero {
+    background: #ffffff;
+    padding: 40px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    margin-bottom: 40px;
+    text-align: center;
+}
+
+.register-hero h2 {
+    font-size: 28px;
+    margin-bottom: 20px;
+}
+
+.register-hero p {
+    font-size: 18px;
+}
+
+.register-form-section {
+    background: #ffffff;
+    padding: 40px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    margin-bottom: 40px;
+}
+
+.register-form .form-group {
+    margin-bottom: 20px;
+}
+
+.register-form label {
+    display: block;
+    margin-bottom: 5px;
+    font-weight: bold;
+}
+
+.register-form input {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 16px;
+}
+
+.register-form .submit-btn {
+    background: #007BFF;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+.register-form .submit-btn:hover {
+    background: #0056b3;
+}
+
+
+/* src/components/Register.css */
+
+.register {
+    padding: 50px 20px;
+    background: #e9ecef;
+    text-align: center;
+}
+
+.register-hero {
+    background: #ffffff;
+    padding: 40px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    margin-bottom: 40px;
+}
+
+.register-hero h2 {
+    font-size: 32px;
+    /* เพิ่มขนาดฟอนต์ */
+    margin-bottom: 20px;
+}
+
+.register-hero p {
+    font-size: 20px;
+    /* เพิ่มขนาดฟอนต์ */
+}
+
+.register-form-section {
+    background: #ffffff;
+    padding: 40px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    margin-bottom: 40px;
+    display: flex;
+    justify-content: center;
+    /* จัดกึ่งกลาง */
+}
+
+.register-form {
+    width: 100%;
+    max-width: 500px;
+    /* กำหนดความกว้างสูงสุด */
+}
+
+.register-form .form-group {
+    margin-bottom: 20px;
+}
+
+.register-form label {
+    display: block;
+    margin-bottom: 5px;
+    font-weight: bold;
+    font-size: 20px;
+    /* เพิ่มขนาดฟอนต์ */
+}
+
+.register-form input {
+    width: 100%;
+    padding: 15px;
+    /* เพิ่มขนาด padding */
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 18px;
+    /* เพิ่มขนาดฟอนต์ */
+}
+
+.register-form .submit-btn {
+    background: #007BFF;
+    color: #fff;
+    border: none;
+    padding: 15px 20px;
+    /* เพิ่มขนาด padding */
+    font-size: 18px;
+    /* เพิ่มขนาดฟอนต์ */
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+.register-form .submit-btn:hover {
+    background: #0056b3;
+}
